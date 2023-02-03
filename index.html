@@ -71,7 +71,7 @@
                 const furigana = $('input[name="furigana"]').val();
                 const birthday  = $('input[name="birthday"]').val();
                 const tel  = $('input[name="tel"]').val();
-                const msg = `${name}\n${furigana}\n${birthday}\n${tel}`;
+                const msg = `"初回登録"\n${name}\n${furigana}\n${birthday}\n${tel}`;
                 sendText(msg);
                 return false;
             });
